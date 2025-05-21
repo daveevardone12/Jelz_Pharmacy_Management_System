@@ -15,6 +15,12 @@
                 <span><strong><span class="text-success">JELZ PHARMACY</span> MANAGEMENT SYSTEM</strong></span>
             </div>
             <div class="login-body text-center p-4">
+                                        <% if (message.length > 0) { %>
+                        <div class="alert alert-danger" role="alert">
+                            <%= message[message.length - 1] %>
+                        </div>
+                        <% } %>
+
                 <h4 class="mb-4">Login</h4>
                 <form action="/login/submit" method="POST">
                     <div class="mb-3 text-start">
