@@ -1,0 +1,42 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.login-container {
+    background: linear-gradient(to bottom, #b1cdea, #4b6587);
+}
+
+.login-box {
+    width: 360px;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+.header {
+    background-color: white;
+    color: #1A315D;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.login-body h4 {
+    font-weight: bold;
+}
+
+.form-control {
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+.btn-primary {
+    background-color: #0d1b2a;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1A315D;
+}
+
+img {
+    height: 40px;
+}
